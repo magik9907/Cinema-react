@@ -1,0 +1,51 @@
+:root {
+  --primary-main: #0c0cb5;
+  --primary-light: #1f1f96;
+  --primary-dark: #040451;
+
+  --secondary-main: #040451;
+  --secondary-light: #8f8f94;
+  --secondary-dark: #35353c;
+
+  --error-main: #bc0000;
+  --error-light: #f53939;
+  --error-dark: #f53939;
+
+  --warning-main: #ff7c00;
+  --warning-light: #f59539;
+  --warning-dark: #f59539;
+
+  --info-main: #f59539;
+  --info-light: #5dafaf;
+  --info-dark: #008888;
+
+  --success-main: #44d22e;
+  --success-light: #84dd76;
+  --success-dark: #19bb00;
+
+  --text-primary: #010102;
+  --text-secondary: #fff;
+  // --text-disabled: #
+  --background-default: #383737;
+  --background-paper: #a1a1a1;
+}
+
+// action: {
+//   active: #
+//   disabled: #
+//   focus: #
+//   hover: #
+//   selected: #
+//   disabledBackground: #
+// }
+// divider: #
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--background-paper);
+}

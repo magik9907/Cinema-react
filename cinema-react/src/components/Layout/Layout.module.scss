@@ -1,0 +1,31 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  // min-height: 100%;
+  padding: 16px 8px;
+}
+
+.container {
+  display: flex;
+
+  .nav {
+    width: 100%;
+    max-width: 300px;
+    &.hiddenNav {
+      display: none;
+    }
+
+    nav {
+      position: sticky;
+      top: 16px;
+    }
+  }
+}
+
+.bodyContainer {
+  width: 100%;
+}

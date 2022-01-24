@@ -1,0 +1,21 @@
+.bold {
+  font-weight: bolder;
+}
+
+.flex {
+  @media (min-width: 800px) {
+    display: flex;
+  }
+}
+
+.marginRight {
+  @media (min-width: 800px) {
+    margin-right: 16px !important;
+  }
+}
+
+.marginLeft {
+  @media (min-width: 800px) {
+    margin-left: 16px !important;
+  }
+}
